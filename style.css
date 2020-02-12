@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+header .social-media,
+header nav,
+main section,
+footer .footer-top{
+    padding: 10px 100px;
+}
+
+header nav{
+    display: flex;
+    justify-content: flex-end;   
+}
+
+header .social-media{
+    background: #000;
+}
+
+header .social-media ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav ul{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    text-transform: capitalize;
+}
+
+header .social-media ul li,
+ header nav ul li{
+    display: flex;
+}
+
+header .social-media ul li a i {
+  margin: 0 6px;
+  font-size: 1rem;
+  color: white;
+}
+
+header nav ul li a {
+    display: flex;
+    text-decoration: none;
+    color: #000;
+}
+
+header .social-media ul li a i:hover,
+header nav ul li a:hover {
+    color: blue;
+  }
+header nav ul li:active {
+    color: blue;
+}
+main .sharing-word{
+    background:#ddd;
+    padding: 100px;
+}
+
+main .main-program{
+    background-image: repeating-radial-gradient(black, #ddeedd 1%, rgb(20, 20, 20) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+}
+main .main-program h2,
+main .main-program h3{ 
+    text-align: center;
+    text-transform: capitalize;
+    margin: 10px 0;
+}
+
+main .main-program hr,
+main .featured-speakers hr,
+footer .footer-top hr{
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 2px solid red;
+    width: 3rem;
+}
+
+main .featured-speakers h2{
+    margin: 10px 0;
+}
+
+main .main-program h3 a{
+    color: black;
+    text-transform: uppercase;
+}
+main .main-program .articles{
+    display: flex;
+    justify-content: space-between;
+}
+main .main-program .articles article{
+    width: 100%;
+    margin-left: 3px;
+    background: rgb(20, 20, 20);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    color: red;
+    box-sizing: border-box;
+}
+main .main-program .articles article h1{
+    color: white;
+    padding: 5px;
+}
+main .main-program .articles article:hover{
+    border: 2px solid white;
+    cursor: pointer;
+}
+main .sharing-word h2 {
+    font-size: 2rem;
+    background: -webkit-linear-gradient(orange, red, rgb(59, 14, 35));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  main .sharing-word h2:nth-child(1){
+    font-weight: normal;
+}
+
+main .sharing-word .message{
+    margin: 10px 0;
+    line-height: 1.5rem;
+    padding: 15px;
+    border: 2px solid white;
+    width: 60%;
+}
+
+main .date{
+    margin: 15px 0;
+    line-height: 2rem;
+}
+
+main .featured-speakers{
+    margin: 30px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+main .featured-speakers .speakers{
+    margin: 20px 0;
+    display: flex;
+}
+main .featured-speakers .speaker .speach{
+    margin: 10px 0;
+    line-height: 1.5rem;
+}
+main .featured-speakers .speaker .speach h4{
+    margin: 10px 0;
+    color: red;
+    font-style: italic;
+}
+main .featured-speakers .speaker .speach hr{
+    width: 3rem;
+    border: 0;
+    border-top: 1px solid grey;
+    margin-bottom: 10px;
+}
+main .featured-speakers .speakers img{
+    width: 40%;
+    float: left;
+}
+
+footer .footer-top{
+    color: white;
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .footer-top h2{
+    color: grey;
+    text-align: center;
+    margin: 10px 0;
+}
+
+footer .footer-top ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+footer .footer-top ul li{
+    display: flex;  
+}
+footer .footer-top ul li a{
+    color: grey;
+    text-decoration: none;
+}
+footer .footer-bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
