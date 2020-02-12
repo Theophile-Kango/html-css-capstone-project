@@ -70,6 +70,12 @@ main .sharing-word{
     padding: 100px;
 }
 
+main #sharing-word-about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 main .main-program{
     background-image: repeating-radial-gradient(black, #ddeedd 1%, rgb(20, 20, 20) 100%);
     display: flex;
@@ -77,6 +83,17 @@ main .main-program{
     align-items: center;
     color: black;
 }
+
+main #about-main-program{
+    background: white;
+}
+
+main #about-main-program #about-main-p{
+    width: 50%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
 main .main-program h2,
 main .main-program h3{ 
     text-align: center;
@@ -141,6 +158,16 @@ main .sharing-word .message{
     padding: 15px;
     border: 2px solid white;
     width: 60%;
+}
+
+main .sharing-word #about-message {
+    background: white;
+    box-shadow: 5px 10px 8px #888;
+    text-align: center;
+}
+
+main .sharing-word #about-date{
+    text-align: center;
 }
 
 main .date{
