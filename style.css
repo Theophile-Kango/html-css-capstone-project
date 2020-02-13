@@ -13,6 +13,10 @@
     box-sizing: border-box;
 }
 
+.menu{
+    display: none;
+}
+
 header .social-media,
 header nav,
 main section,
@@ -179,8 +183,7 @@ main .featured-speakers{
     margin: 30px 0;
     display: flex;
     flex-direction: column;
-    align-items: center;
-   
+    align-items: center;  
 }
 
 main .featured-speakers .table-container{
@@ -342,4 +345,94 @@ footer .footer-bottom{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+@media only screen and (max-width: 992px) {
+    main .main-program .articles{
+        display: grid;
+        grid-gap: 2px;
+        grid-template-columns: repeat(3, 1fr); 
+    }
+}
+@media only screen and (max-width: 768px) {
+    
+      header nav{
+          display: none;
+      }
+      header .social-media{
+          height: 30px;
+      }
+     
+      header .social-media ul li a i{
+          font-size: 0.8rem;  
+      }
+      header .social-media,
+        header nav,
+    main section,
+    main .sharing-word{
+    padding: 10px 30px;
+    }
+      .menu{
+          display: block;
+          padding: 20px;
+          background: #ddd;
+      }
+      .menu i{
+          font-size: 1.5rem;
+          cursor: pointer;
+      }
+      .menu i:hover{
+        color: red;
+    }
+    .menu ul{
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+    }
+    
+    .menu ul li a{
+        text-decoration: none;
+        color: black;
+        display: block;
+        cursor: pointer;
+    }
+    .menu ul li a:hover{
+        color: red;
+    }
+    .menu ul ul li{
+       display: none;
+    }
+    .menu ul:hover ul li{
+        display: block;
+        background: white;
+        padding: 5px;
+        border-bottom: 1px solid grey;
+    }
+    main .sharing-word{
+        padding-top: 30px;
+    }
+    
+main .sharing-word .message{
+    width: 100%;
+}
+main .main-program .articles{
+    display: grid;
+    grid-gap: 2px;
+    grid-template-columns: repeat(2, 1fr); 
+}
+main .featured-speakers .speakers{
+    display: grid;
+    grid-template-columns: 1fr;  
+}
+footer{
+    font-size: 0.8rem;
+}
+}
+@media only screen and (max-width: 500px) {
+    main .main-program .articles{
+        display: grid;
+        grid-template-columns: 1fr; 
+    }
+    footer .footer-top{
+    padding: 10px 30px;
+    }
 }
