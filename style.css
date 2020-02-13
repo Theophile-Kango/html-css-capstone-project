@@ -71,7 +71,14 @@ header nav ul li:active {
 }
 main .sharing-word{
     background:#ddd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 100px;
+}
+
+main .sharing-word img{
+    width: 100%;
 }
 
 main #sharing-word-about{
@@ -125,6 +132,7 @@ main .main-program h3 a{
 main .main-program .articles{
     display: flex;
     justify-content: space-between;
+    
 }
 main .main-program .articles article{
     width: 100%;
@@ -132,14 +140,24 @@ main .main-program .articles article{
     background: rgb(20, 20, 20);
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     padding: 20px;
     color: red;
     box-sizing: border-box;
 }
 main .main-program .articles article h1{
+    text-align: center;
     color: white;
     padding: 5px;
+}
+main .main-program .articles article img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+main .main-program .articles article p a{
+    color: grey;
+    text-decoration: none;
 }
 main .main-program .articles article:hover{
     border: 2px solid white;
@@ -248,6 +266,7 @@ main .featured-speakers .speaker .speach hr{
 }
 main .featured-speakers .speakers img{
     width: 40%;
+    margin: 10px;
     float: left;
 }
 
