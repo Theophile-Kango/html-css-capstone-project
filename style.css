@@ -472,6 +472,7 @@ footer{
 @media only screen and (max-width: 500px) {
 
     main #tickets-featured .table-container{
+        border: none;
         font-size: 0.7rem;
     }
     
