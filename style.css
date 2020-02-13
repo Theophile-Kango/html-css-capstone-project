@@ -358,6 +358,9 @@ footer .footer-bottom{
     }
 }
 @media only screen and (max-width: 768px) {
+    .container{
+        font-size: 0.9rem;
+    }
     
       header nav{
           display: none;
