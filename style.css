@@ -77,7 +77,8 @@ main .sharing-word{
     padding: 100px;
 }
 
-main .sharing-word img{
+main .sharing-word img,
+main #sharing-word-about img{
     width: 100%;
 }
 
@@ -155,9 +156,12 @@ main .main-program .articles article img{
     height: 200px;
     object-fit: cover;
 }
-main .main-program .articles article p a{
-    color: grey;
+main .main-program .articles article p a,
+main .main-program .articles article p span{
+    color: #ccc;
+    line-height: 2rem;
     text-decoration: none;
+    text-align: justify;
 }
 main .main-program .articles article:hover{
     border: 2px solid white;
@@ -186,6 +190,15 @@ main .sharing-word #about-message {
     background: white;
     box-shadow: 5px 10px 8px #888;
     text-align: center;
+}
+
+main .sharing-word #about-message ol{
+    padding: 10px;
+}
+
+main .sharing-word #about-message ol li{
+    
+    text-align: justify;
 }
 
 main .sharing-word #about-date{
