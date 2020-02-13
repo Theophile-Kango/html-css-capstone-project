@@ -471,7 +471,7 @@ footer{
 }
 @media only screen and (max-width: 500px) {
 
-    main .featured-speakers .select-tickets{
+    main #tickets-featured .table-container{
         font-size: 0.7rem;
     }
     
