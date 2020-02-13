@@ -1,53 +1,58 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
 }
 
-.container{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
 }
 
-.menu{
-    display: none;
+.menu {
+  display: none;
 }
 
 header .social-media,
 header nav,
 main section,
-footer .footer-top{
-    padding: 10px 100px;
+footer .footer-top {
+  padding: 10px 100px;
 }
 
-header nav{
-    display: flex;
-    justify-content: flex-end;   
+header nav {
+  display: flex;
+  justify-content: flex-end;
 }
 
-header .social-media{
-    background: #000;
+header .social-media {
+  background: #000;
+}
+
+header nav ul {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  text-transform: capitalize;
+}
+
+header nav ul li,
+header .social-media ul li {
+  display: flex;
 }
 
 header .social-media ul {
-    display: flex;
-    justify-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
 }
 
-header nav ul{
-    width: 30%;
-    display: flex;
-    justify-content: space-between;
-    text-transform: capitalize;
-}
-
-header .social-media ul li,
- header nav ul li{
-    display: flex;
+.menu i {
+  font-size: 1.5rem;
+  cursor: pointer;
 }
 
 header .social-media ul li a i {
@@ -57,430 +62,459 @@ header .social-media ul li a i {
 }
 
 header nav ul li a {
-    display: flex;
-    text-decoration: none;
-    color: #000;
+  display: flex;
+  text-decoration: none;
+  color: #000;
+}
+
+main .main-program h3 a {
+  color: black;
+  text-transform: uppercase;
+}
+
+main .featured-speakers .select-tickets span i {
+  font-size: 1rem;
+}
+
+footer .footer-top ul li a {
+  color: grey;
+  text-decoration: none;
 }
 
 header .social-media ul li a i:hover,
 header nav ul li a:hover {
-    color: blue;
-  }
+  color: blue;
+}
+
+footer .footer-top ul li {
+  display: flex;
+}
+
 header nav ul li:active {
-    color: blue;
-}
-main .sharing-word{
-    background:#ddd;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 100px;
+  color: blue;
 }
 
-main .sharing-word img,
-main #sharing-word-about img{
-    width: 100%;
+main .sharing-word {
+  background: #ddd;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px;
 }
 
-main #sharing-word-about{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+main .sharing-word img {
+  width: 100%;
 }
 
-main .main-program{
-    background-image: repeating-radial-gradient(black, #ddeedd 1%, rgb(20, 20, 20) 100%);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: black;
+main .featured-speakers .speakers img {
+  width: 40%;
+  margin: 10px;
+  float: left;
 }
 
-main #about-main-program{
-    background: white;
+main .main-program .articles article img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
 }
 
-main #about-main-program #about-main-p{
-    width: 50%;
-    text-align: center;
-    margin-bottom: 20px;
+main #sharing-word-about img {
+  width: 100%;
+}
+
+main #sharing-word-about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main .main-program {
+  background-image: repeating-radial-gradient(black, #ded 1%, rgb(20, 20, 20) 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+}
+
+main #about-main-program {
+  background: white;
+}
+
+main #about-main-program #about-main-p {
+  width: 50%;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 main .main-program h2,
-main .main-program h3{ 
-    text-align: center;
-    text-transform: capitalize;
-    margin: 10px 0;
+main .main-program h3 {
+  text-align: center;
+  text-transform: capitalize;
+  margin: 10px 0;
 }
 
 main .main-program hr,
 main .featured-speakers hr,
-footer .footer-top hr{
-    margin-bottom: 20px;
-    border: 0;
-    border-top: 2px solid red;
-    width: 3rem;
+footer .footer-top hr {
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 2px solid red;
+  width: 3rem;
 }
 
-main .featured-speakers h2{
-    margin: 10px 0;
+main .featured-speakers h2 {
+  margin: 10px 0;
 }
 
-main .main-program h3 a{
-    color: black;
-    text-transform: uppercase;
+main .main-program .articles {
+  display: flex;
+  justify-content: space-between;
 }
-main .main-program .articles{
-    display: flex;
-    justify-content: space-between;
-    
+
+main .main-program .articles article {
+  width: 100%;
+  margin-left: 3px;
+  background: rgb(20, 20, 20);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 20px;
+  color: red;
+  box-sizing: border-box;
 }
-main .main-program .articles article{
-    width: 100%;
-    margin-left: 3px;
-    background: rgb(20, 20, 20);
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    padding: 20px;
-    color: red;
-    box-sizing: border-box;
-}
-main .main-program .articles article h1{
-    text-align: center;
-    color: white;
-    padding: 5px;
-}
-main .main-program .articles article img{
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-}
-main .main-program .articles article p a,
-main .main-program .articles article p span{
-    color: #ccc;
-    line-height: 2rem;
-    text-decoration: none;
-    text-align: justify;
-}
-main .main-program .articles article:hover{
-    border: 2px solid white;
-    cursor: pointer;
-}
+
 main .sharing-word h2 {
-    font-size: 2rem;
-    background: -webkit-linear-gradient(orange, red, rgb(59, 14, 35));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-
-  main .sharing-word h2:nth-child(1){
-    font-weight: normal;
+  font-size: 2rem;
+  background: -webkit-linear-gradient(orange, red, rgb(59, 14, 35));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-main .sharing-word .message{
-    margin: 10px 0;
-    line-height: 1.5rem;
-    padding: 15px;
-    border: 2px solid white;
-    width: 60%;
+footer .footer-top h2 {
+  color: grey;
+  text-align: center;
+  margin: 10px 0;
+}
+
+main .sharing-word h2:nth-child(1) {
+  font-weight: normal;
+}
+
+main .main-program .articles article h2 {
+  text-align: center;
+  color: white;
+  padding: 5px;
+}
+
+main .select-tickets span,
+main .featured-speakers .select-tickets span {
+  color: red;
+}
+
+main .main-program .articles article p a,
+main .main-program .articles article p span {
+  color: #ccc;
+  line-height: 2rem;
+  text-decoration: none;
+  text-align: justify;
+}
+
+main .main-program .articles article:hover {
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+main .sharing-word .message {
+  margin: 10px 0;
+  line-height: 1.5rem;
+  padding: 15px;
+  border: 2px solid white;
+  width: 60%;
 }
 
 main .sharing-word #about-message {
-    background: white;
-    box-shadow: 5px 10px 8px #888;
-    text-align: center;
+  background: white;
+  box-shadow: 5px 10px 8px #888;
+  text-align: center;
 }
 
-main .sharing-word #about-message ol{
-    padding: 10px;
+main .sharing-word #about-message ol {
+  padding: 10px;
 }
 
-main .sharing-word #about-message ol li{
-    
-    text-align: justify;
+main .featured-speakers .lunch ul li {
+  display: flex;
+  align-items: center;
+  padding: 10px;
 }
 
-main .sharing-word #about-date{
-    text-align: center;
+main .sharing-word #about-message ol li {
+  text-align: justify;
 }
 
-main .date{
-    margin: 15px 0;
-    line-height: 2rem;
+main .sharing-word #about-date {
+  text-align: center;
 }
 
-main .featured-speakers{
-    margin: 30px 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;  
+main .date {
+  margin: 15px 0;
+  line-height: 2rem;
 }
 
-main .featured-speakers .table-container{
-    width: 100%;
-    border: 5px dashed;
-    border-image: -webkit-linear-gradient(left, red, blue 33%, yellow 66%, green) 3%;
+main .featured-speakers {
+  margin: 30px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-main .featured-speakers table{
-    width: 100%;
-    border-collapse: collapse;
+main .featured-speakers .table-container {
+  width: 100%;
+  border: 5px dashed;
+  border-image: -webkit-linear-gradient(left, red, blue 33%, yellow 66%, green) 3%;
 }
 
-main .featured-speakers #checked{
-    width: 30px;
-    height: 30px;
-    text-align: center;
-    padding-top: 5px; 
-    color: white;
-    background: red;
-    position: relative;
-    top: 30px;
-    transform: rotateZ(225deg);
+main .featured-speakers table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+main .featured-speakers #checked {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding-top: 5px;
+  color: white;
+  background: red;
+  position: relative;
+  top: 30px;
+  transform: rotateZ(225deg);
 }
 
 main .featured-speakers table th,
-main .featured-speakers table td{
-    border: 1px solid black;
-    margin: 0;
-    padding: 10px;
-    text-align: center;
-    line-height: 1.5rem;
-}
-main .featured-speakers table td{
-    background: white;
-    color: red;
-}
-main .featured-speakers table td:nth-child(1){
-    color: black;
-}
-main .featured-speakers table .second-td{
-    color: black;
-}
-main .featured-speakers .speakers{
-    margin: 20px 0;
-    display: flex;
-}
-main .featured-speakers .speaker .speach{
-    margin: 10px 0;
-    line-height: 1.5rem;
-}
-main .featured-speakers .speaker .speach h4{
-    margin: 10px 0;
-    color: red;
-    font-style: italic;
-}
-main .featured-speakers .speaker .speach hr{
-    width: 3rem;
-    border: 0;
-    border-top: 1px solid grey;
-    margin-bottom: 10px;
-}
-main .featured-speakers .speakers img{
-    width: 40%;
-    margin: 10px;
-    float: left;
+main .featured-speakers table td {
+  border: 1px solid black;
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+  line-height: 1.5rem;
 }
 
-main .featured-speakers .select-tickets h3, 
-main .select-tickets h3{
-    font-weight: normal;
-    padding: 10px 20px;
-    margin: 20px 0;
-    border: 1px solid grey;
-    border-radius: 25px;
-    box-sizing: border-box;
+main .featured-speakers table td {
+  background: white;
+  color: red;
 }
 
-main .select-tickets{
-    display: flex;
-    justify-content: center;
+main .featured-speakers table td:nth-child(1) {
+  color: black;
 }
 
-main .featured-speakers .lunch{
-    width: 100%;
-    border: 1px solid #ccc;
-    margin: 20px 0;
+main .featured-speakers table .second-td {
+  color: black;
 }
 
-
-main .featured-speakers .lunch h3{
-    padding: 10px;
-    text-align: center;
-    background: #ccc;
+main .featured-speakers .speakers {
+  margin: 20px 0;
+  display: flex;
 }
 
-main .featured-speakers .lunch ul{
-    display: flex;
-    justify-content: space-around;
+main .featured-speakers .speaker .speach {
+  margin: 10px 0;
+  line-height: 1.5rem;
 }
 
-main .featured-speakers .lunch ul li{
-    display: flex;
-    align-items: center;
-    padding: 10px;
+main .featured-speakers .speaker .speach h4 {
+  margin: 10px 0;
+  color: red;
+  font-style: italic;
 }
 
-
-main .featured-speakers .lunch ul li label{
-    margin-right: 8px;
+main .featured-speakers .speaker .speach hr {
+  width: 3rem;
+  border: 0;
+  border-top: 1px solid grey;
+  margin-bottom: 10px;
 }
 
-main .select-tickets #second-fun{
-    margin: 3px;
+main .select-tickets h3,
+main .featured-speakers .select-tickets h3 {
+  font-weight: normal;
+  padding: 10px 20px;
+  margin: 20px 0;
+  border: 1px solid grey;
+  border-radius: 25px;
+  box-sizing: border-box;
 }
 
-main #tickets-featured{
-    background: #ddd;
-    margin: 0;
-    padding-bottom: 16px;
+main .select-tickets {
+  display: flex;
+  justify-content: center;
 }
 
-main .featured-speakers .select-tickets span,
-main .select-tickets span{
-    color: red;
+main .featured-speakers .lunch {
+  width: 100%;
+  border: 1px solid #ccc;
+  margin: 20px 0;
 }
 
-main .featured-speakers .select-tickets span i{
-    font-size: 1rem;
+main .featured-speakers .lunch h3 {
+  padding: 10px;
+  text-align: center;
+  background: #ccc;
 }
 
-footer .footer-top{
-    color: white;
-    background: #000;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+footer .footer-top ul {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
 }
 
-footer .footer-top h2{
-    color: grey;
-    text-align: center;
-    margin: 10px 0;
+main .featured-speakers .lunch ul {
+  display: flex;
+  justify-content: space-around;
 }
 
-footer .footer-top ul{
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
+main .featured-speakers .lunch ul li label {
+  margin-right: 8px;
 }
-footer .footer-top ul li{
-    display: flex;  
+
+main .select-tickets #second-fun {
+  margin: 3px;
 }
-footer .footer-top ul li a{
-    color: grey;
-    text-decoration: none;
+
+main #tickets-featured {
+  background: #ddd;
+  margin: 0;
+  padding-bottom: 16px;
 }
-footer .footer-bottom{
-    margin: 10px 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+
+footer .footer-top {
+  color: white;
+  background: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
+footer .footer-bottom {
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 @media only screen and (max-width: 992px) {
-    main .main-program .articles{
-        display: grid;
-        grid-gap: 2px;
-        grid-template-columns: repeat(3, 1fr); 
-    }
-    main #about-main-program .articles{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);  
-    }
-}
-@media only screen and (max-width: 768px) {
-    
-      header nav{
-          display: none;
-      }
-      header .social-media{
-          height: 30px;
-      }
-     
-      header .social-media ul li a i{
-          font-size: 0.8rem;  
-      }
-      header .social-media,
-        header nav,
-    main section,
-    main .sharing-word{
-    padding: 10px 30px;
-    }
-      .menu{
-          display: block;
-          padding: 20px;
-          background: #ddd;
-      }
-      .menu i{
-          font-size: 1.5rem;
-          cursor: pointer;
-      }
-      .menu i:hover{
-        color: red;
-    }
-    .menu ul{
-        margin: 0px;
-        padding: 0px;
-        list-style: none;
-    }
-    
-    .menu ul li a{
-        text-decoration: none;
-        color: black;
-        display: block;
-        cursor: pointer;
-    }
-    .menu ul li a:hover{
-        color: red;
-    }
-    .menu ul ul li{
-       display: none;
-    }
-    .menu ul:hover ul li{
-        display: block;
-        background: white;
-        padding: 5px;
-        border-bottom: 1px solid grey;
-    }
-    main .sharing-word{
-        padding-top: 30px;
-    }
-    
-main .sharing-word .message{
-    width: 100%;
-}
-
-main .main-program .articles{
+  main .main-program .articles {
     display: grid;
     grid-gap: 2px;
-    grid-template-columns: repeat(2, 1fr); 
-}
-main #about-main-program .articles{
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  main #about-main-program .articles {
     display: grid;
-    grid-template-columns: 1fr;  
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
-main .featured-speakers .speakers{
-    display: grid;
-    grid-template-columns: 1fr;  
-}
-footer{
+@media only screen and (max-width: 768px) {
+  header nav {
+    display: none;
+  }
+
+  header .social-media {
+    height: 30px;
+  }
+
+  header .social-media ul li a i {
     font-size: 0.8rem;
-}
-}
-@media only screen and (max-width: 500px) {
+  }
 
-    main #tickets-featured .table-container{
-        border: none;
-        font-size: 0.7rem;
-    }
-    
-    main .main-program .articles{
-        display: grid;
-        grid-template-columns: 1fr; 
-    }
-    footer .footer-top{
+  header .social-media,
+  header nav,
+  main section,
+  main .sharing-word {
     padding: 10px 30px;
-    }
+  }
+
+  .menu {
+    display: block;
+    padding: 20px;
+    background: #ddd;
+  }
+
+  .menu i:hover {
+    color: red;
+  }
+
+  .menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .menu ul li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    cursor: pointer;
+  }
+
+  .menu div li a:hover {
+    color: red;
+  }
+
+  .menu div ul li {
+    display: none;
+  }
+
+  .menu div:hover ul li {
+    display: block;
+    background: white;
+    padding: 5px;
+    border-bottom: 1px solid grey;
+  }
+
+  main .sharing-word {
+    padding-top: 30px;
+  }
+
+  main .sharing-word .message {
+    width: 100%;
+  }
+
+  main .main-program .articles {
+    display: grid;
+    grid-gap: 2px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  main #about-main-program .articles {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  main .featured-speakers .speakers {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  footer {
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  main #tickets-featured .table-container {
+    border: none;
+    font-size: 0.7rem;
+  }
+
+  main .main-program .articles {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  footer .footer-top {
+    padding: 10px 30px;
+  }
 }
