@@ -358,9 +358,6 @@ footer .footer-bottom{
     }
 }
 @media only screen and (max-width: 768px) {
-    .container{
-        font-size: 0.9rem;
-    }
     
       header nav{
           display: none;
@@ -441,6 +438,10 @@ footer{
 }
 }
 @media only screen and (max-width: 500px) {
+
+    main .featured-speakers .select-tickets{
+        font-size: 0.7rem;
+    }
     
     main .main-program .articles{
         display: grid;
