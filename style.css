@@ -352,6 +352,10 @@ footer .footer-bottom{
         grid-gap: 2px;
         grid-template-columns: repeat(3, 1fr); 
     }
+    main #about-main-program .articles{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);  
+    }
 }
 @media only screen and (max-width: 768px) {
     
@@ -414,11 +418,17 @@ footer .footer-bottom{
 main .sharing-word .message{
     width: 100%;
 }
+
 main .main-program .articles{
     display: grid;
     grid-gap: 2px;
     grid-template-columns: repeat(2, 1fr); 
 }
+main #about-main-program .articles{
+    display: grid;
+    grid-template-columns: 1fr;  
+}
+
 main .featured-speakers .speakers{
     display: grid;
     grid-template-columns: 1fr;  
@@ -428,6 +438,7 @@ footer{
 }
 }
 @media only screen and (max-width: 500px) {
+    
     main .main-program .articles{
         display: grid;
         grid-template-columns: 1fr; 
