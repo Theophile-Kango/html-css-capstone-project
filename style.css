@@ -477,6 +477,8 @@ footer .footer-bottom {
   .menu {
     display: block;
     padding: 20px;
+    position: relative;
+    bottom: 20px;
     background: #ddd;
   }
 
