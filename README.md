@@ -32,7 +32,7 @@ We used 3 pages in this project
 
 ## Live Demo
 
-[Live Demo](https://raw.githack.com/Theophile-Kango/html-css-capstone-project/feature/index.html)
+[Live Demo](https://theophile-kango.github.io/html-css-capstone-project/)
 
 ## Getting Started
 
