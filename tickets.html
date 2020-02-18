@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href="//db.onlinewebfonts.com/c/d14035f6b1afeabafbee4abb2ebf0fc6?family=COCOGOOSE" rel="stylesheet" type="text/css"/>
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <script src="https://kit.fontawesome.com/526bcd4356.js" crossorigin="anonymous"></script>
+    <title>HTML & CSS Tutorials</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="social-media">
+                <ul>
+                    <li>
+                        <a href="https://www.facebook.com/fadhili.kango" target="_blank"><i
+                                class="fab fa-facebook-f"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/Theophadh" target="_blank"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/theophile-kango-b6b580194/" target="_blank"><i
+                                class="fab fa-linkedin-in"></i></a>
+                    </li>
+                </ul>
+
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">about</a>
+                    </li>
+                    <li>
+                        <a href="tickets.html">tickets</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <header class="menu">
+            <div>
+                <i class="fas fa-bars"></i>
+                <ul>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="about.html">about</a></li>
+                    <li><a href="tickets.html">tickets</a></li>
+                </ul>
+            </div>
+        </header>
+        <main>
+            <h1>Amani Festival 2020</h1>
+            <section id="tickets-featured" class="featured-speakers">
+                <h2>Select Tickets</h2>
+                <hr>
+                <div class="select-tickets">
+                    <h3>
+                        <span><i class="fas fa-star-of-life"></i> Step 1 : </span>
+                        Please select the day when you want to join
+                    </h3>
+                </div>
+                <div class="table-container">
+                    <table>
+                        <tr>
+                            <th>Ticket</th>
+                            <th>1-day-Ticket</th>
+                            <th colspan="2">2-day-Ticket</th>
+                            <th>Partners</th>
+                        </tr>
+                        <tr>
+                            <td>Date</td>
+                            <td class="second-td">13. Feb(Thu)</td>
+                            <td class="second-td">14. Feb(Fri)</td>
+                            <td class="second-td">15. Feb(Fri)</td>
+                            <td class="second-td">16. Feb(Fri)</td>
+                        </tr>
+                        <tr>
+                            <td>Normal</td>
+                            <td>$ 70 <br>
+                                <input type="radio" id="first" value="first" name="normal"></td>
+                            <td>
+                                $ 70 <br>
+                                <input type="radio" id="second" value="second" name="normal">
+                            </td>
+                            <td>
+                                $ 100 <br>
+                                <input type="radio" id="third" value="third" name="normal">
+                            </td>
+                            <td>
+                                $ 0 <br>
+                                <input type="radio" id="fourth" value="fourth" name="normal">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Students</td>
+                            <td>$ 30 <br>
+                                <input type="radio" id="s-first" value="s-first" name="student"></td>
+                            <td>
+                                $ 30 <br>
+                                <input type="radio" id="s-second" value="s-second" name="student">
+                            </td>
+                            <td>
+                                $ 50 <br>
+                                <input type="radio" id="s-third" value="s-third" name="student">
+                            </td>
+                            <td>
+                                $ 0 <br>
+                                <input type="radio" id="s-fourth" value="s-fourth" name="student">
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="checked">┌</div>
+            </section>
+
+            <section class="featured-speakers">
+                <h2>Select Your Lunch</h2>
+                <hr>
+                <div class="select-tickets">
+                    <h3 id="second-fun">
+                        <span><i class="fas fa-star-of-life"></i> Step 2 : </span>
+                        Please select your lunch for registered day. There will be no further coasts for the lunch.
+                    </h3>
+                </div>
+                <div class="lunch">
+                    <h3>To Drink</h3>
+                    <ul>
+                        <li>
+                            <label>Menu 1 </label>
+                            <input type="radio" id="drink-1" value="drink-1" name="todrink">
+                        </li>
+
+                        <li>
+                            <label>Menu 2 </label>
+                            <input type="radio" id="drink-2" value="drink-2" name="todrink">
+                        </li>
+
+                        <li>
+                            <label>Menu 3 </label>
+                            <input type="radio" id="drink-3" value="drink-3" name="todrink">
+                        </li>
+                    </ul>
+                </div>
+                <div class="lunch">
+                    <h3>To Eat</h3>
+                    <ul>
+                        <li>
+                            <label>Menu 1 </label>
+                            <input type="radio" id="drink-4" value="drink-4" name="todrink">
+                        </li>
+
+                        <li>
+                            <label>Menu 2 </label>
+                            <input type="radio" id="drink-5" value="drink-5" name="todrink">
+                        </li>
+
+                        <li>
+                            <label>Menu 3 </label>
+                            <input type="radio" id="drink-6" value="drink-6" name="todrink">
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+        </main>
+
+        <footer>
+            <div class="footer-top">
+                <h2>Sponsors</h2>
+                <hr>
+                <ul>
+                    <li><a href="https://bralima.net/">Primus</a></li>
+                    <li><a href="https://www.undp.org/">UPND</a></li>
+                    <li><a href="https://monusco.unmissions.org/">Monusco</a></li>
+                    <li><a href="https://www.rawbank.cd/">Rowbank</a></li>
+                    <li><a href="http://institutfrancaisgoma.org/">Institut Français</a></li>
+                </ul>
+            </div>
+            <div class="footer-bottom">
+                <h2>Designed By Theophile Kango</h2>
+                <small>Copyright &copy; 2020</small>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
