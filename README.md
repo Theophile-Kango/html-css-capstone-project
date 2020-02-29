@@ -43,11 +43,11 @@ To get a local copy up and running follow these simple example steps.
 
 ## Author
 
-[Github](@Theophile-Kango)
+👤 **Theophile Kango**
 
-[Twitter](@Theophadh)
-
-[Linkedin](https://www.linkedin.com/in/theophile-kango-b6b580194/)
+- Github: [@githubhandle](https://github.com/Theophile-Kango)
+- Twitter: [@twitterhandle](https://twitter.com/Theophadh)
+- Linkedin: [linkedin](https://www.linkedin.com/in/theophile-kango-b6b580194/)
 
 ## 🤝 Contributing
 
