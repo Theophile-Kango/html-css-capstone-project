@@ -1,8 +1,9 @@
+[![hire-badge](https://img.shields.io/badge/Consult%20/%20Hire%20Theophile-Click%20to%20Contact-brightgreen)](mailto:fadhili.kango@gmail.com ) [![Twitter Follow](https://img.shields.io/twitter/follow/Theophadh?label=Follow%20Theophile%20on%20Twitter&style=social)](https://twitter.com/Theophadh)
+
 # html-css-capstone-project
 
-# Amani festival
+## Amani festival
 
-# What it does
 This is the end Project of HTML and CSS module, I built a festival Amani website
 
 We used 3 pages in this project
@@ -26,9 +27,9 @@ We used 3 pages in this project
 ![Screenshot 2](capture/Capture3.PNG)
 
 ## Built With
+
 - HTML
 - CSS
-#### and deployed to Github
 
 ## Live Demo
 
@@ -43,11 +44,11 @@ To get a local copy up and running follow these simple example steps.
 
 ## Author
 
-[Github](@Theophile-Kango)
+👤  **Theophile Kango**
 
-[Twitter](@Theophadh)
-
-[Linkedin](https://www.linkedin.com/in/theophile-kango-b6b580194/)
+- Github: [@githubhandle](https://github.com/Theophile-Kango)
+- Twitter: [@twitterhandle](https://twitter.com/Theophadh)
+- Linkedin: [linkedin](https://www.linkedin.com/in/theophile-kango)
 
 ## 🤝 Contributing
 
