@@ -1,41 +1,32 @@
 @import url(//db.onlinewebfonts.com/c/4d309d1a449d052dcbc2f893306274fd?family=COCOGOOSE+LETTERPRESS);
 
-@font-face {
-  font-family: "COCOGOOSE LETTERPRESS";
-  src: url("//db.onlinewebfonts.com/t/4d309d1a449d052dcbc2f893306274fd.eot");
-  src:
-    url("//db.onlinewebfonts.com/t/4d309d1a449d052dcbc2f893306274fd.eot?#iefix") format("embedded-opentype"),
-    url("//db.onlinewebfonts.com/t/4d309d1a449d052dcbc2f893306274fd.woff2") format("woff2"),
-    url("//db.onlinewebfonts.com/t/4d309d1a449d052dcbc2f893306274fd.woff") format("woff"),
-    url("//db.onlinewebfonts.com/t/4d309d1a449d052dcbc2f893306274fd.ttf") format("truetype"),
-    url("//db.onlinewebfonts.com/t/4d309d1a449d052dcbc2f893306274fd.svg#COCOGOOSE LETTERPRESS") format("svg");
-}
+@font-face {font-family: "COCOGOOSE LETTERPRESS"; src: 
+  url("//db.onlinewebfonts.com/t/4d309d1a449d052dcbc2f893306274fd.eot"); src: 
+  url("//db.onlinewebfonts.com/t/4d309d1a449d052dcbc2f893306274fd.eot?#iefix") format("embedded-opentype"), 
+  url("//db.onlinewebfonts.com/t/4d309d1a449d052dcbc2f893306274fd.woff2") format("woff2"), 
+  url("//db.onlinewebfonts.com/t/4d309d1a449d052dcbc2f893306274fd.woff") format("woff"), 
+  url("//db.onlinewebfonts.com/t/4d309d1a449d052dcbc2f893306274fd.ttf") format("truetype"), 
+  url("//db.onlinewebfonts.com/t/4d309d1a449d052dcbc2f893306274fd.svg#COCOGOOSE LETTERPRESS") format("svg"); }
 
-@font-face {
-  font-family: "COCOGOOSE";
-  src: url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.eot");
-  src:
-    url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.eot?#iefix") format("embedded-opentype"),
-    url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.woff2") format("woff2"),
-    url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.woff") format("woff"),
-    url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.ttf") format("truetype"),
-    url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.svg#COCOGOOSE") format("svg");
-}
-
+  @font-face {font-family: "COCOGOOSE"; src: 
+    url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.eot"); src: 
+    url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.eot?#iefix") format("embedded-opentype"), 
+    url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.woff2") format("woff2"), 
+    url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.woff") format("woff"), 
+    url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.ttf") format("truetype"), 
+    url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.svg#COCOGOOSE") format("svg"); }
 * {
   margin: 0;
   padding: 0;
   font-family: 'Lato', sans-serif;
   box-sizing: border-box;
 }
-
 h1 {
   font-family: 'COCOGOOSE', serif;
   font-weight: 600;
   size: 2rem;
   line-height: 2.3rem;
 }
-
 .container {
   width: 100%;
   height: 100vh;
@@ -48,7 +39,7 @@ h1 {
   display: none;
 }
 
-header {
+header{
   margin-bottom: 20px;
 }
 
@@ -120,8 +111,8 @@ footer .footer-top ul li a {
 
 header .social-media ul li a i:hover,
 header nav ul li a:hover {
-  color: #ec5242;
-  border: 1px solid #ec5242;
+  color: #EC5242;
+  border: 1px solid #EC5242;
 }
 
 footer .footer-top ul li {
@@ -174,7 +165,8 @@ main .main-program {
 }
 
 main #about-main-program {
-  background: white;
+  background: #ccc;
+  color: black;
 }
 
 main #about-main-program #about-main-p {
@@ -195,7 +187,7 @@ main .featured-speakers hr,
 footer .footer-top hr {
   margin-bottom: 20px;
   border: 0;
-  border-top: 2px solid #ec5242;
+  border-top: 2px solid #EC5242;
   width: 3rem;
 }
 
@@ -211,25 +203,25 @@ main .main-program .articles {
 main .main-program .articles article {
   width: 100%;
   margin-left: 3px;
-  background: #d3d3d3;
+  background: #ddd;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   padding: 20px;
-  color: #272a31;
+  color: #000;
   box-sizing: border-box;
 }
 
 main h1 {
   font-size: 2rem;
-  background: -webkit-linear-gradient(red, #ec5242, rgb(59, 14, 35));
+  background: -webkit-linear-gradient(red, #EC5242, rgb(59, 14, 35));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-align: center;
 }
 
 footer .footer-top h2 {
-  color: #ec5242;
+  color: #EC5242;
   text-align: center;
   margin: 10px 0;
 }
@@ -240,18 +232,18 @@ main .sharing-word h2:nth-child(1) {
 
 main .main-program .articles article h2 {
   text-align: center;
-  color: #ec5242;
+  color: #EC5242;
   padding: 5px;
 }
 
 main .select-tickets span,
 main .featured-speakers .select-tickets span {
-  color: #ec5242;
+  color:#EC5242;
 }
 
 main .main-program .articles article p a,
 main .main-program .articles article p span {
-  color: #272a31;
+  color: #ccc;
   line-height: 1.5rem;
   text-decoration: none;
   text-align: justify;
@@ -323,7 +315,7 @@ main .featured-speakers #checked {
   text-align: center;
   padding-top: 5px;
   color: white;
-  background: #ec5242;
+  background: #EC5242;
   position: relative;
   top: 30px;
   transform: rotateZ(225deg);
@@ -340,7 +332,7 @@ main .featured-speakers table td {
 
 main .featured-speakers table td {
   background: white;
-  color: #ec5242;
+  color: #EC5242;
 }
 
 main .featured-speakers table td:nth-child(1) {
@@ -363,7 +355,7 @@ main .featured-speakers .speaker .speach {
 
 main .featured-speakers .speaker .speach h4 {
   margin: 10px 0;
-  color: #ec5242;
+  color: #EC5242;
   font-style: italic;
 }
 
@@ -477,13 +469,11 @@ footer .footer-bottom {
   .menu {
     display: block;
     padding: 20px;
-    position: relative;
-    bottom: 20px;
     background: #ddd;
   }
 
   .menu i:hover {
-    color: #ec5242;
+    color: #EC5242;
   }
 
   .menu ul {
@@ -500,7 +490,7 @@ footer .footer-bottom {
   }
 
   .menu div li a:hover {
-    color: #ec5242;
+    color: #EC5242;
   }
 
   .menu div ul li {
